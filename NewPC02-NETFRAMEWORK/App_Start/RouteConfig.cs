@@ -16,7 +16,7 @@ namespace NewPC02_NETFRAMEWORK
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "User", action = "Validate", id = UrlParameter.Optional }
             );
         }
     }
